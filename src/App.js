@@ -16,7 +16,7 @@ state={
     const city=e.target.elements.city.value; 
     const country=e.target.elements.country.value; 
     const API_Key = "e36ed364400282e43250b6c4c0274d44";
-    const api = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_Key}`);
+    const api = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_Key}`);
     const data = await api.json();
     
     if (city && country) {
