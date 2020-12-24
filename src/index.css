@@ -47,6 +47,9 @@ code {
     width: 300px !important;
     margin-left: calc(50% - 150px);
   }
+  .form_container h1{
+    font-size: 18px;
+  }
 }
 
 .form_container h1{
